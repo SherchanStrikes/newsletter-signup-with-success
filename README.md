@@ -58,6 +58,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - React-Toastify
+- SASS
 
 ### What I learned
 
