@@ -1,0 +1,48 @@
+//custom variables
+$secondary: #ffdc60;
+$dark: #3f3f47;
+$primarylight: #fac8bf;
+$white: hsl(0, 0%, 100%);
+$light: #ffffff;
+$grey: hsl(231, 7%, 60%);
+$pagination-color: none;
+$pagination-bg: none;
+$pagination-border-color: none;
+$DarkSlateGrey: hsl(234, 29%, 20%);
+$CharcoalGrey: hsl(235, 18%, 26%);
+@import '../../node_modules/bootstrap/scss/_functions';
+@import '../../node_modules/bootstrap/scss/_variables';
+
+$theme-colors: (
+  'primary': #ff6347,
+);
+// custom colors
+$custom-theme-colors: (
+  'CharcoalGrey': $CharcoalGrey,
+  'DarkSlateGrey': $DarkSlateGrey,
+  'white': $white,
+  'primarylight': $primarylight,
+  'grey': $grey,
+);
+// scss-docs-start container-max-widths
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.form-control::placeholder {
+  color: $grey; /* Replace with your desired color */
+}
+
+.custom-input {
+  /* Add styles for focused input */
+  &:focus {
+    border-color: none; 
+    box-shadow: none;/* Change to your desired border color */
+    outline: none; /* Optional: Remove the default blue outline */
+  }
+}
+
+
+.activeBtn:hover {
+  background: linear-gradient(to right, rgb(241,112,164), ( rgba(241,112,164,1) 0%, rgba(241,112,164,1) 39%, rgba(240,109,0,1) 100%));
+  border: transparent;
+}
