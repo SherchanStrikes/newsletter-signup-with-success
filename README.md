@@ -100,8 +100,8 @@ I would like to improve on my css skills and quality code formats.
 
 ### Useful resources
 
-- [Example resource 1](https://reactrouter.com/en/main/upgrading/v5#upgrade-all-switch-elements-to-routes) - This helped me for navigating through pages with email input as props.
-- [Example resource 2](https://fkhadra.github.io/react-toastify/introduction/) - This is an amazing docs which helped me implement toastify for my messages. I'd recommend it to anyone still learning this concept.
+- [React-router-dom-V6](https://reactrouter.com/en/main/upgrading/v5#upgrade-all-switch-elements-to-routes) - This helped me for navigating through pages with email input as props.
+- [React-toastify](https://fkhadra.github.io/react-toastify/introduction/) - This is an amazing docs which helped me implement toastify for my messages. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
